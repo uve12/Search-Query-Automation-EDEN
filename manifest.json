@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Eden",
+  "version": "1.0",
+  "description": " This browser extension allows user to search in multiple websites with their input search key and also with their custom website URL.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
